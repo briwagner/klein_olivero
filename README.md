@@ -37,6 +37,6 @@ For a composer-based workflow, modify the Drupal project's composer.json file to
 
 A basic npm script is included in package.json. It uses sass to compile sass files into css.
 
-Sass files that start with an underscore should be imported in `global.scss` or another file. They will not be compiled and copied into the `dist/` folder.
+Sass files that start with an underscore should be imported in `global.scss` or another file. They will not be compiled and copied into the `dist/` folder on their own.
 
-Sasses files that should be copied into the `dist/` folder and made available to the web server should NOT begin with an underscore.
+Sass files that should be copied into the `dist/` folder and made available to the web server should NOT begin with an underscore.
