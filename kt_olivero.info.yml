@@ -1,0 +1,24 @@
+name: 'KT Olivero'
+type: theme
+description: 'Klein Tools Extranet sub-theme using Olivero'
+base theme: olivero
+package: Other
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
+
+libraries:
+  - kt_olivero/global

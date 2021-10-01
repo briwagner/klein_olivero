@@ -1,0 +1,15 @@
+table.views-table thead th {
+  border-bottom-color:$color-dk-gray;
+}
+
+.pager {
+  li.pager__item.pager__item--active {
+    background-color: $color-yellow;
+    color: $color-black;
+  }
+
+  a.pager__link:focus {
+    color: $color-dk-gray;
+    outline-color: $color-dk-gray;
+  }
+}

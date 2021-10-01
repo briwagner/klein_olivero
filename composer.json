@@ -1,0 +1,13 @@
+{
+    "name": "briwagner/klein_olivero",
+    "description": "Subtheme of Drupal 9 Olivero for Klein Extranet",
+    "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brian Wagner",
+            "email": "briwagner@outlook.com"
+        }
+    ],
+    "require": {}
+}

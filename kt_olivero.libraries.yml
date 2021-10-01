@@ -1,0 +1,12 @@
+global:
+  header: FALSE
+  css:
+    base:
+      dist/css/global.css: {}
+  dependencies:
+    - olivero/global-styling
+
+products:
+  css:
+    component:
+      dist/css/products.css: {}

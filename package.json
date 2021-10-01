@@ -1,0 +1,13 @@
+{
+  "name": "kt_olivero",
+  "version": "1.0.0",
+  "description": "Klein Tools Olivero SubTheme",
+  "scripts": {
+    "build": "sass src/scss/:dist/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.36.0"
+  }
+}

@@ -1,0 +1,24 @@
+.site-header {
+
+  .site-header__initial {
+    background-color: $color-dk-gray;
+
+    .sticky-header-toggle {
+      background-color: $color-dk-gray;
+    }
+  }
+
+  .site-header__inner .site-branding {
+    background-image: none;
+    background-color: $color-dk-gray;
+  }
+
+  .site-branding__inner a.site-branding__logo {
+    color: $color-yellow;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

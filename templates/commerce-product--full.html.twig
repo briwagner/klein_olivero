@@ -1,0 +1,43 @@
+{#
+/**
+ * @file
+ *
+ * Default product template.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product: The rendered product fields.
+ *   Use 'product' to print them all, or print a subset such as
+ *   'product.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product|without('title') }}
+ *   @endcode
+ * - product_entity: The product entity.
+ * - product_url: The product URL.
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('kt_olivero/products') }}
+
+<article{{ attributes }}>
+  <div class="product-full-grid">
+    <div class="product-full__image">
+      image is here
+    </div>
+    <div class="product-full__details">
+      {{product.field_product_number}}
+
+      {{- product|without(
+        'variation_attributes',
+        'body',
+        'field_product_number'
+        ) -}}
+    </div>
+    <div class="product-full__extras">
+      <h3>Product Details</h3>
+      {{ product.body }}
+    </div>
+  </div>
+</article>
